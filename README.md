@@ -41,4 +41,13 @@ The goal is not feature-completeness, but to show:
 ```bash
 pnpm install
 pnpm --filter web install
-pnpm --filter api install
+pnpm --filter api installA
+
+### dev
+pnpm dev:web
+pnpm dev:api
+
+Web runs on http://localhost:8080
+
+API runs on http://localhost:4000
+

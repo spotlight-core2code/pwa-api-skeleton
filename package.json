@@ -1,0 +1,17 @@
+{
+  "name": "pwa-api-skeleton",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "web",
+    "api"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "build:web": "pnpm --filter web build",
+    "dev:api": "pnpm --filter api dev",
+    "build:api": "pnpm --filter api build",
+    "build": "pnpm build:web && pnpm build:api"
+  }
+}
+
