@@ -106,5 +106,5 @@ curl -X POST http://localhost:4000/slots/request \
 To demonstrate how I connect architecture and implementation.
 - As a starting point for client demos or internal tools.
 - As a reference for clean project layout and separation of concerns.
-- For recruiters or CTOs evaluating architecture + engineering capability.
+- For someone evaluating architecture + engineering capability.
 

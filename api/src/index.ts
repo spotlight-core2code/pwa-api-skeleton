@@ -1,13 +1,3 @@
-
----
-
-## 3. API mit minimalem Beispiel füllen
-
-Im Ordner `api/`:
-
-### a) `api/src/index.ts`
-
-```ts
 import express from "express";
 import { json } from "body-parser";
 import { getAvailableSlots, requestSlot } from "./lib/slots-service";
