@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log
+pnpm-lock.yaml
+
+# Output
+dist/
+build/
+
+# Eleventy
+.web/
+
+# OS junk
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
