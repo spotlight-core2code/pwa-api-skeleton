@@ -57,34 +57,42 @@ Install all workspace packages at once:
 
 ```bash
 pnpm install
+```
 
 or install individually:
 
 ```bash
 pnpm --filter pwa-api-web install
-```bash
 pnpm --filter pwa-api-backend install
+```
 
 ### 2. Development
 
 Run backend (API)
 
+```bash
 pnpm --filter pwa-api-backend dev
+```
 API will run on:
 http://localhost:4000
 
 Run frontend (web)
 
+```bash
 pnpm --filter pwa-api-web dev
+```
 Frontend will run on:
 http://localhost:8080
 
 ### 3. Example API Usage
 
 Get all available slots
+```bash
 curl http://localhost:4000/slots/available
+```
 
 Request a slot
+```bash
 curl -X POST http://localhost:4000/slots/request \
   -H "Content-Type: application/json" \
   -d '{
@@ -92,6 +100,7 @@ curl -X POST http://localhost:4000/slots/request \
     "email": "test@example.com",
     "slotId": "2025-01-10-0900"
   }'
+```
 
 ### 4. When This Repository Is Useful
 To demonstrate how I connect architecture and implementation.
